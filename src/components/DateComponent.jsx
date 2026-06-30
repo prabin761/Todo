@@ -1,6 +1,6 @@
 import React from "react";
 
-const Date = () => {
+const DateComponent = () => {
   return (
     <div className="overflow-scroll scrollbar-thumb-blue-500 flex gap-2 px-2 my-4 pb-2">
       <div className="p-2 rounded-3xl bg-white">
@@ -58,4 +58,4 @@ const Date = () => {
   );
 };
 
-export default Date;
+export default DateComponent;
